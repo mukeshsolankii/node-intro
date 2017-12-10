@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <div>
+    <h1>!!List of authors with their posts!!</h1>
+    <a href="/authors">Please click this <i>(if you are not getting the number of posts)</i>.</a>
+       <ul>
+           <% for(var i=0; i < users.length; i++) {%> 
+    <pre>
+      <li type="1"><%= users[i].username %> has <%= pa[i] %> posts!!!
+      </li>
+    </pre>
+           <% }; %>
+
+       </ul>
+    </div>
+     </body>
+</html>
