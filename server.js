@@ -81,7 +81,7 @@ var post_arr = [];
 app.get('/authors',function(req ,res){
     if(users == null){
 	     get_users();
-		 res.send("<h1>Please refresh again!!</h1>");
+		 res.send("<h1>Please refresh again!!<br> or check the network!!! </h1>");
     }else{	 
 	     var name = 'Solanki';
 	     res.render('index',{users : users , name : name , pa : post_arr});//Here we render the ejs file...
