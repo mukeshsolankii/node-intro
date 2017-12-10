@@ -34,7 +34,7 @@ Then test the routes.....
  
  c). Respond with only a list of authors and the count of their posts (a newline for each author).
  
- **3. Set a simple cookie (if it has not already been set) at http://localhost:8080/setcookie with the following values: name=<your-first-name> and age=<your-age>**
+ **3. Set a simple cookie (if it has not already been set) at http://localhost:8080/setcookie with the following values: name=your-first-name and age=your-age**
  
  **4. Fetch the set cookie with http://localhost:8080/getcookies and display the stored key-values in it.**
  
