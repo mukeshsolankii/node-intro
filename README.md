@@ -1,4 +1,4 @@
-# Instruction to run the code in your local machine!!
+# :point_right: Instruction to run the code in your local machine!!
 
 **For this code to work you have to download node on your pc.(https://nodejs.org/en/download/)**
 
@@ -22,7 +22,7 @@ open any browser and type
 
 Then test the routes.....
 
-# The Tasks completed in this project are following:-
+# :point_right: The Tasks completed in this project are following:-
 
 **1. A simple hello-world at http://localhost:8080/ that displays a simple string like "Hello World - Arpit"; replace "Arpit" with your own first name).**
 
@@ -46,6 +46,8 @@ Then test the routes.....
 
 
 
+**Thanks!! :smirk:**
 
+:v:
 
 
