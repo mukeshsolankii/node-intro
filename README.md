@@ -36,3 +36,17 @@ Then test the routes.....
  
  **3. Set a simple cookie (if it has not already been set) at http://localhost:8080/setcookie with the following values: name=your-first-name and age=your-age**
  
+  **4. Fetch the set cookie with http://localhost:8080/getcookies and display the stored key-values in it.**
+ 
+ **5. Deny requests to your http://localhost:8080/robots.txt page. (or you can use the response at http://httpbin.org/deny if needed)**
+ 
+ **6. Render an HTML page at http://localhost:8080/html or an image at http://localhost:8080/image.**
+ 
+ **7. A text box at http://localhost:8080/input which sends the data as POST to any endpoint of your choice. This endpoint should log the received the received to stdout.**
+
+
+
+**Thanks!! :smirk:**
+
+**:v:**
+
