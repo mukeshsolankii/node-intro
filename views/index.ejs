@@ -6,11 +6,10 @@
     <body>
     <div>
     <h1>!!List of authors with their posts!!</h1>
-    <a href="/authors">Please click this <i>(if you are not getting the number of posts)</i>.</a>
        <ul>
-           <% for(var i=0; i < users.length; i++) {%> 
+           <% for(var i=0; i < data.length; i++) { %> 
     <pre>
-      <li type="1"><%= users[i].username %> has <%= pa[i] %> posts!!!
+      <li type="1"><%= data[i].username %> has <%= posts[i] %> posts!!!
       </li>
     </pre>
            <% }; %>
